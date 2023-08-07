@@ -1,0 +1,75 @@
+/* Estilos para el menú y el diseño general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #menu {
+    background-color: #333;
+    position: fixed; /* Fijar la posición del menú */
+    top: 0; /* Colocar el menú en la parte superior */
+    width: 100%;
+    z-index: 1000; /* Asegurarse de que esté en la parte superior */
+  }
+  
+  #menu a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #menu a:hover {
+    background-color: #555;
+  }
+  
+  h1, h2 {
+    font-family: "Trebuchet MS", sans-serif;
+    color: #3498db;
+    text-decoration: underline;
+  }
+  
+  /* Estilos específicos para la sección de bienvenida */
+  #bienvenida-img {
+    float: right;
+    border: 1px solid black;
+    box-shadow: 3px 3px 5px #888888;
+  }
+  
+  /* Estilos específicos para la sección de hoja de vida */
+  .subsection {
+    border: 1px solid #ccc;
+    background: linear-gradient(to bottom, #f9f9f9, #e5e5e5);
+    padding: 10px;
+  }
+  
+  .subsection ul {
+    color: #333;
+    list-style-type: none; /* Quitamos las viñetas predeterminadas */
+    padding-left: 20px; /* Agregamos un espacio para las viñetas personalizadas */
+  }
+  
+  .subsection ul li {
+    position: relative;
+    padding-left: 10px;
+  }
+  
+  .subsection ul li:before {
+    content: "\2022"; /* Código para el carácter de viñeta */
+    position: absolute;
+    left: 0;
+    color: #3498db; /* Color para las viñetas */
+  }
+  .content-with-image {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 3px 3px 5px #888888;
+    overflow: auto; /* Para limpiar el flotado */
+  }
+
+  
+  
